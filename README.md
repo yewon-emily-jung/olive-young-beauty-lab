@@ -21,7 +21,11 @@ npm run build
 npm run preview
 ```
 
-The production build goes into `dist/`. Deploy this directory to a static host serving the app at the domain root. Asset URLs begin with `/`; a GitHub Pages project subdirectory requires asset-path changes. The included GitHub Actions workflow runs tests and builds; it does not deploy automatically.
+The production build goes into `dist/`. Asset paths follow the `BASE_PATH` environment variable, which defaults to `/` for local use and root-domain hosting.
+
+## Deploy to GitHub Pages
+
+Pushing to `main` runs `.github/workflows/deploy.yml`, which builds the site with `BASE_PATH=/olive-young-beauty-lab/` and publishes it. In the repository, open Settings > Pages and set Source to GitHub Actions once. The site then lives at https://yewon-emily-jung.github.io/olive-young-beauty-lab/. The separate `ci.yml` workflow runs the tests.
 
 ## Features
 
