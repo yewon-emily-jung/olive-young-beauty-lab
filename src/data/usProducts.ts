@@ -1,4 +1,5 @@
 import type {Product} from './products';
+import {asset} from '../assetUrl';
 // User's US-only edit, checked 2026-11-08. Award scope follows the official 2025 hub.
 export const usProducts:Product[]=[
   {
@@ -40,8 +41,8 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA97366320",
-    "imageUrl": "/products/us/us-UA97366320-5.webp",
-    "imageFallbackUrl": "/products/us/us-UA97366320-5.png",
+    "imageUrl": asset("/products/us/us-UA97366320-5.webp"),
+    "imageFallbackUrl": asset("/products/us/us-UA97366320-5.png"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA250832765/option/5d34d649-3998-405c-801f-e5aa4a1ecb7c.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -52,7 +53,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA97366320-guide-2.webp",
+        "image": asset("/products/us/references/UA97366320-guide-2.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA97366320/detail-strips/5ea4c16c-f842-4ab9-8813-e8010e1bfa6a.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA97366320",
         "label": "US product guide",
@@ -93,8 +94,8 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA40448254",
-    "imageUrl": "/products/us/us-UA40448254-4.webp",
-    "imageFallbackUrl": "/products/us/us-UA40448254-4.png",
+    "imageUrl": asset("/products/us/us-UA40448254-4.webp"),
+    "imageFallbackUrl": asset("/products/us/us-UA40448254-4.png"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA240724688/option/9ef81d86-4a7b-4696-a085-2c4b9452724b.webp",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -105,7 +106,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA40448254-guide-4.webp",
+        "image": asset("/products/us/references/UA40448254-guide-4.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA40448254/detail-strips/c34502bf-b24e-4342-bf67-b380b9c1bcba.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA40448254",
         "label": "US product guide",
@@ -146,8 +147,8 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA79593396",
-    "imageUrl": "/products/us/us-UA79593396-2.webp",
-    "imageFallbackUrl": "/products/us/us-UA79593396-2.png",
+    "imageUrl": asset("/products/us/us-UA79593396-2.webp"),
+    "imageFallbackUrl": asset("/products/us/us-UA79593396-2.png"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-d29dfcf2-6a95-420d-859f-acb1e02dc03b/option/9dc017a6-002f-4bd8-91b7-36588f7529a9.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -158,7 +159,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA79593396-guide-2.webp",
+        "image": asset("/products/us/references/UA79593396-guide-2.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-852df113-08ab-43b9-9b62-7b9f2a3825bc/detail/f0ce02a7-6a0c-4faa-a3f5-b726a9ccff84.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA79593396",
         "label": "US product guide",
@@ -199,8 +200,8 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA65059038",
-    "imageUrl": "/products/us/us-UA65059038-3.webp",
-    "imageFallbackUrl": "/products/us/us-UA65059038-3.png",
+    "imageUrl": asset("/products/us/us-UA65059038-3.webp"),
+    "imageFallbackUrl": asset("/products/us/us-UA65059038-3.png"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-29043d8c-9759-49db-b755-02eb72083eb5/option/3cb3af3e-51bb-4ab7-83c3-da007ff6668b.webp",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -211,7 +212,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA65059038-guide-1.webp",
+        "image": asset("/products/us/references/UA65059038-guide-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA65059038/detail-strips/e448ab50-f023-4763-a9c5-c524643a137f.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA65059038",
         "label": "US product guide",
@@ -261,8 +262,8 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA39060939",
-    "imageUrl": "/products/us/us-UA39060939-1.webp",
-    "imageFallbackUrl": "/products/us/us-UA39060939-1.png",
+    "imageUrl": asset("/products/us/us-UA39060939-1.webp"),
+    "imageFallbackUrl": asset("/products/us/us-UA39060939-1.png"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-d8dc90e0-6806-4b67-a2db-f3aab5096da3/option/a81fe25f-14c5-499e-bee5-05589407236d.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -273,7 +274,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA39060939-guide-2.webp",
+        "image": asset("/products/us/references/UA39060939-guide-2.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-2d7b62b9-e005-45ef-bbd7-8fa41ce59b1c/detail/3f828627-7035-49be-8ef8-edcf289db3af.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA39060939",
         "label": "US product guide",
@@ -314,8 +315,8 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA38419101",
-    "imageUrl": "/products/us/us-UA38419101-3.webp",
-    "imageFallbackUrl": "/products/us/us-UA38419101-3.png",
+    "imageUrl": asset("/products/us/us-UA38419101-3.webp"),
+    "imageFallbackUrl": asset("/products/us/us-UA38419101-3.png"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-7488296b-8977-40c4-af75-20d0d451e162/option/93462101-eee9-4eaf-92bf-ed565df77107.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -326,7 +327,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA38419101-guide-1.webp",
+        "image": asset("/products/us/references/UA38419101-guide-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-112a3f38-a47f-43b2-8e48-5a75dd31c2be/detail/0410ae31-349a-4a4c-83c7-0f4c49429f8f.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA38419101",
         "label": "US product guide",
@@ -367,7 +368,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA45750368",
-    "imageUrl": "/products/us/us-UA45750368-0.webp",
+    "imageUrl": asset("/products/us/us-UA45750368-0.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA230719639/option/3061cd99-0697-4f48-8875-3e4285999bc9.webp",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -378,7 +379,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA45750368-0-detail-1.webp",
+        "image": asset("/products/us/references/UA45750368-0-detail-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/item/1143/a7ed9aa6-b43f-4a3c-a926-0304dcead746.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA45750368",
         "label": "Official shade example",
@@ -387,7 +388,7 @@ export const usProducts:Product[]=[
         "kind": "on-face"
       },
       {
-        "image": "/products/us/references/UA45750368-guide-0.webp",
+        "image": asset("/products/us/references/UA45750368-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/4589546892264/detail/585acd4e-a16b-4acc-b9e8-0f84054ada59.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA45750368",
         "label": "US product guide",
@@ -428,7 +429,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA45750368",
-    "imageUrl": "/products/us/us-UA45750368-1.webp",
+    "imageUrl": asset("/products/us/us-UA45750368-1.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA230719639/option/63d56214-e5be-4cbd-8393-3523d5e523a7.webp",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -439,7 +440,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA45750368-1-detail-1.webp",
+        "image": asset("/products/us/references/UA45750368-1-detail-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/item/1684/5a8172df-c6fc-403b-bdd9-d4a6fa7ec48c.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA45750368",
         "label": "Official shade example",
@@ -448,7 +449,7 @@ export const usProducts:Product[]=[
         "kind": "on-face"
       },
       {
-        "image": "/products/us/references/UA45750368-guide-0.webp",
+        "image": asset("/products/us/references/UA45750368-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/4589546892264/detail/585acd4e-a16b-4acc-b9e8-0f84054ada59.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA45750368",
         "label": "US product guide",
@@ -499,7 +500,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA50161155",
-    "imageUrl": "/products/us/us-UA50161155-0.webp",
+    "imageUrl": asset("/products/us/us-UA50161155-0.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA210004842/option/f70bbc7a-47ee-4e7e-812a-9e473766874b.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -510,7 +511,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA50161155-0-detail-1.webp",
+        "image": asset("/products/us/references/UA50161155-0-detail-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/item/1743/48c8f7e6-ea41-42ce-91c1-fa6e172315ce.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA50161155",
         "label": "Official shade example",
@@ -561,7 +562,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA50161155",
-    "imageUrl": "/products/us/us-UA50161155-8.webp",
+    "imageUrl": asset("/products/us/us-UA50161155-8.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA210004842/option/3b8b5c2a-3b8a-43e4-a492-4d7f0c1824df.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -572,7 +573,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA50161155-8-detail-1.webp",
+        "image": asset("/products/us/references/UA50161155-8-detail-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/item/1634/fb8a0170-c4c5-4b66-a2f2-3c231012b548.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA50161155",
         "label": "Official shade example",
@@ -623,7 +624,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA50161155",
-    "imageUrl": "/products/us/us-UA50161155-1.webp",
+    "imageUrl": asset("/products/us/us-UA50161155-1.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA210004842/option/df45e82a-6c35-4bf6-926d-3861be81456d.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -634,7 +635,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA50161155-1-detail-1.webp",
+        "image": asset("/products/us/references/UA50161155-1-detail-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/item/1499/ad18a712-fe7f-4902-ba53-34f93ff2c1ef.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA50161155",
         "label": "Official shade example",
@@ -685,7 +686,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA52271115",
-    "imageUrl": "/products/us/us-UA52271115-1.webp",
+    "imageUrl": asset("/products/us/us-UA52271115-1.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA250833127/option/2d5fd634-c8e5-4446-ad21-603807fe6d43.png",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -696,7 +697,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA52271115-guide-2.webp",
+        "image": asset("/products/us/references/UA52271115-guide-2.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA52271115/detail-strips/cd4dc94e-7d71-423f-a6a3-3795bbce9e1b.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA52271115",
         "label": "US product guide",
@@ -747,7 +748,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA52271115",
-    "imageUrl": "/products/us/us-UA52271115-0.webp",
+    "imageUrl": asset("/products/us/us-UA52271115-0.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA250833127/option/3cd948ed-14a8-4c7f-a44d-1620dc3c5183.png",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -758,7 +759,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA52271115-guide-2.webp",
+        "image": asset("/products/us/references/UA52271115-guide-2.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA52271115/detail-strips/cd4dc94e-7d71-423f-a6a3-3795bbce9e1b.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA52271115",
         "label": "US product guide",
@@ -808,7 +809,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA58044867",
-    "imageUrl": "/products/us/us-UA58044867-0.webp",
+    "imageUrl": asset("/products/us/us-UA58044867-0.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA230317872/option/c6df1fd2-225d-4b2a-99b2-2949416281e5.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -819,7 +820,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA58044867-0-detail-1.webp",
+        "image": asset("/products/us/references/UA58044867-0-detail-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/GA230317872/option/052ce2b3-fd80-4049-b3f7-663dce8404b0.webp",
         "pageUrl": "https://us.oliveyoung.com/products/UA58044867",
         "label": "Official shade example",
@@ -828,7 +829,7 @@ export const usProducts:Product[]=[
         "kind": "on-face"
       },
       {
-        "image": "/products/us/references/UA58044867-guide-0.webp",
+        "image": asset("/products/us/references/UA58044867-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA58044867/detail-strips/e7aa526d-b527-42dd-8fa2-5251bc1a3d60.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA58044867",
         "label": "US product guide",
@@ -878,7 +879,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA58044867",
-    "imageUrl": "/products/us/us-UA58044867-1.webp",
+    "imageUrl": asset("/products/us/us-UA58044867-1.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/UA58044867/option/cdfa84bf-0c26-49bd-866e-cc38ec332835.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -889,7 +890,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA58044867-guide-0.webp",
+        "image": asset("/products/us/references/UA58044867-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA58044867/detail-strips/e7aa526d-b527-42dd-8fa2-5251bc1a3d60.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA58044867",
         "label": "US product guide",
@@ -930,7 +931,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA97316267",
-    "imageUrl": "/products/us/us-UA97316267-0.webp",
+    "imageUrl": asset("/products/us/us-UA97316267-0.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-0fa53966-5b30-41bc-b950-c2ba28ac797d/option/6a043ead-e568-4602-9d72-e102be4b0277.png",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -941,7 +942,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA97316267-guide-1.webp",
+        "image": asset("/products/us/references/UA97316267-guide-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA97316267/detail-strips/4ae09832-d125-41af-ad3e-d4c8e93ff671.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA97316267",
         "label": "US product guide",
@@ -982,7 +983,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA97316267",
-    "imageUrl": "/products/us/us-UA97316267-1.webp",
+    "imageUrl": asset("/products/us/us-UA97316267-1.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-86fe5952-185e-43bb-9de8-ca142fb067e9/option/d0f9e0e5-fa4f-4350-82ac-dd7a9c41eae8.png",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -993,7 +994,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA97316267-guide-1.webp",
+        "image": asset("/products/us/references/UA97316267-guide-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA97316267/detail-strips/4ae09832-d125-41af-ad3e-d4c8e93ff671.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA97316267",
         "label": "US product guide",
@@ -1034,7 +1035,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA58610827",
-    "imageUrl": "/products/us/us-UA58610827-8.webp",
+    "imageUrl": asset("/products/us/us-UA58610827-8.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA210004833/option/1b8a89b0-a5e0-442b-af0a-d2f730d5433f.png",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -1045,7 +1046,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA58610827-guide-0.webp",
+        "image": asset("/products/us/references/UA58610827-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/GA210004833/detail/1fda877c-2976-4f11-a71b-dd49176357e7.gif",
         "pageUrl": "https://us.oliveyoung.com/products/UA58610827",
         "label": "US product guide",
@@ -1086,7 +1087,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA58610827",
-    "imageUrl": "/products/us/us-UA58610827-3.webp",
+    "imageUrl": asset("/products/us/us-UA58610827-3.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA210004833/option/9fa88bc2-fda0-4d38-93dc-7996b03e1de6.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -1097,7 +1098,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA58610827-3-detail-1.webp",
+        "image": asset("/products/us/references/UA58610827-3-detail-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/item/1516/11e09e02-72c7-4003-b322-3f19fd8dc8fb.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA58610827",
         "label": "Official shade example",
@@ -1106,7 +1107,7 @@ export const usProducts:Product[]=[
         "kind": "on-face"
       },
       {
-        "image": "/products/us/references/UA58610827-guide-0.webp",
+        "image": asset("/products/us/references/UA58610827-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/GA210004833/detail/1fda877c-2976-4f11-a71b-dd49176357e7.gif",
         "pageUrl": "https://us.oliveyoung.com/products/UA58610827",
         "label": "US product guide",
@@ -1147,7 +1148,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA84134255",
-    "imageUrl": "/products/us/us-UA84134255-3.webp",
+    "imageUrl": asset("/products/us/us-UA84134255-3.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-5e557254-3f8f-43f5-9ef5-54d8cd25ffcc/option/d88399bb-792d-4bc2-8f35-905b78f7fd5b.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -1158,7 +1159,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA84134255-guide-0.webp",
+        "image": asset("/products/us/references/UA84134255-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA84134255/detail-strips/0fe0bcce-f978-4c81-b609-cff79e96d558.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA84134255",
         "label": "US product guide",
@@ -1199,7 +1200,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA84134255",
-    "imageUrl": "/products/us/us-UA84134255-5.webp",
+    "imageUrl": asset("/products/us/us-UA84134255-5.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-d249e284-c9d1-40e2-8959-aa26b182207e/option/e469780a-7fc1-404d-84cb-1cde7ea5a250.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -1210,7 +1211,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA84134255-guide-0.webp",
+        "image": asset("/products/us/references/UA84134255-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA84134255/detail-strips/0fe0bcce-f978-4c81-b609-cff79e96d558.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA84134255",
         "label": "US product guide",
@@ -1260,7 +1261,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA90122206",
-    "imageUrl": "/products/us/us-UA90122206-4.webp",
+    "imageUrl": asset("/products/us/us-UA90122206-4.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA240523634/option/36e4472a-7039-45ab-be98-9c75a0b49571.webp",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -1271,7 +1272,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA90122206-4-detail-0.webp",
+        "image": asset("/products/us/references/UA90122206-4-detail-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/GA240523634/option/6bc36b6c-b606-4078-bd23-903037becb30.webp",
         "pageUrl": "https://us.oliveyoung.com/products/UA90122206",
         "label": "Official shade example",
@@ -1280,7 +1281,7 @@ export const usProducts:Product[]=[
         "kind": "on-face"
       },
       {
-        "image": "/products/us/references/UA90122206-guide-0.webp",
+        "image": asset("/products/us/references/UA90122206-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA90122206/detail-strips/0d3fa4c0-8b94-4e34-b9a8-2739bdb3ca7a.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA90122206",
         "label": "US product guide",
@@ -1330,7 +1331,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA90122206",
-    "imageUrl": "/products/us/us-UA90122206-9.webp",
+    "imageUrl": asset("/products/us/us-UA90122206-9.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA240523634/option/cefbb898-4b20-4204-bf73-70acbbb7511d.webp",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -1341,7 +1342,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA90122206-9-detail-0.webp",
+        "image": asset("/products/us/references/UA90122206-9-detail-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/item/1544/a1443001-ef05-487f-a70c-9e176c87de6a.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA90122206",
         "label": "Official shade example",
@@ -1350,7 +1351,7 @@ export const usProducts:Product[]=[
         "kind": "on-face"
       },
       {
-        "image": "/products/us/references/UA90122206-guide-0.webp",
+        "image": asset("/products/us/references/UA90122206-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA90122206/detail-strips/0d3fa4c0-8b94-4e34-b9a8-2739bdb3ca7a.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA90122206",
         "label": "US product guide",
@@ -1391,7 +1392,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA94949043",
-    "imageUrl": "/products/us/us-UA94949043-5.webp",
+    "imageUrl": asset("/products/us/us-UA94949043-5.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-6f3a6c53-5535-4b41-9834-a46332b29f40/option/10c12b52-6f0f-4cc8-a493-f81698875df3.png",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -1402,7 +1403,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA94949043-5-detail-1.webp",
+        "image": asset("/products/us/references/UA94949043-5-detail-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-5db81f6a-26c8-4c3c-9ddf-9a903332317d/option/4471c094-d34b-42d4-af76-6e94f0fe21be.webp",
         "pageUrl": "https://us.oliveyoung.com/products/UA94949043",
         "label": "Official shade example",
@@ -1411,7 +1412,7 @@ export const usProducts:Product[]=[
         "kind": "on-face"
       },
       {
-        "image": "/products/us/references/UA94949043-guide-0.webp",
+        "image": asset("/products/us/references/UA94949043-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA94949043/detail-strips/407eaf8b-d393-448d-8fe7-54ad1ecb5e34.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA94949043",
         "label": "US product guide",
@@ -1452,7 +1453,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA94949043",
-    "imageUrl": "/products/us/us-UA94949043-1.webp",
+    "imageUrl": asset("/products/us/us-UA94949043-1.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-09e75cf1-e5fd-46db-a905-f40ca02b63a4/option/d44b8112-8717-4856-80ee-87d73e0d057f.png",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -1463,7 +1464,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA94949043-1-detail-1.webp",
+        "image": asset("/products/us/references/UA94949043-1-detail-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-5db81f6a-26c8-4c3c-9ddf-9a903332317d/option/55417e52-1aff-4a39-9c62-8e799e635df0.webp",
         "pageUrl": "https://us.oliveyoung.com/products/UA94949043",
         "label": "Official shade example",
@@ -1472,7 +1473,7 @@ export const usProducts:Product[]=[
         "kind": "on-face"
       },
       {
-        "image": "/products/us/references/UA94949043-guide-0.webp",
+        "image": asset("/products/us/references/UA94949043-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA94949043/detail-strips/407eaf8b-d393-448d-8fe7-54ad1ecb5e34.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA94949043",
         "label": "US product guide",
@@ -1513,7 +1514,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA52235593",
-    "imageUrl": "/products/us/us-UA52235593-4.webp",
+    "imageUrl": asset("/products/us/us-UA52235593-4.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA250128079/option/e2478628-dd7f-4e91-9132-dc7eab220461.png",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -1524,7 +1525,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA52235593-4-detail-0.webp",
+        "image": asset("/products/us/references/UA52235593-4-detail-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/item/1038/c79376c9-86d4-42e5-b496-afc3ab5225fc.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA52235593",
         "label": "Official shade example",
@@ -1533,7 +1534,7 @@ export const usProducts:Product[]=[
         "kind": "on-face"
       },
       {
-        "image": "/products/us/references/UA52235593-guide-0.webp",
+        "image": asset("/products/us/references/UA52235593-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA52235593/detail-strips/b8ef6df6-a634-4694-86c2-ce84f970d418.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA52235593",
         "label": "US product guide",
@@ -1574,7 +1575,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA52235593",
-    "imageUrl": "/products/us/us-UA52235593-2.webp",
+    "imageUrl": asset("/products/us/us-UA52235593-2.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA250128079/option/2ea688cf-1b5d-4031-ae37-b25cba30e0b2.png",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -1585,7 +1586,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA52235593-2-detail-0.webp",
+        "image": asset("/products/us/references/UA52235593-2-detail-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/item/1873/7da6ed31-807e-48cb-b332-401312a33218.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA52235593",
         "label": "Official shade example",
@@ -1594,7 +1595,7 @@ export const usProducts:Product[]=[
         "kind": "on-face"
       },
       {
-        "image": "/products/us/references/UA52235593-guide-0.webp",
+        "image": asset("/products/us/references/UA52235593-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA52235593/detail-strips/b8ef6df6-a634-4694-86c2-ce84f970d418.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA52235593",
         "label": "US product guide",
@@ -1645,7 +1646,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA88174791",
-    "imageUrl": "/products/us/us-UA88174791-5.webp",
+    "imageUrl": asset("/products/us/us-UA88174791-5.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA251135411/option/57686448-5812-4232-b31e-f2ca1487bbaf.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -1656,7 +1657,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA88174791-5-detail-1.webp",
+        "image": asset("/products/us/references/UA88174791-5-detail-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/item/1229/3b95d585-f8f2-4689-b41a-fb345650f163.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA88174791",
         "label": "Official shade example",
@@ -1665,7 +1666,7 @@ export const usProducts:Product[]=[
         "kind": "on-face"
       },
       {
-        "image": "/products/us/references/UA88174791-guide-0.webp",
+        "image": asset("/products/us/references/UA88174791-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/GA251135411/detail/7434c6b9-5b58-4736-aa4c-4fc824d0c2ef.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA88174791",
         "label": "US product guide",
@@ -1716,7 +1717,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA88174791",
-    "imageUrl": "/products/us/us-UA88174791-0.webp",
+    "imageUrl": asset("/products/us/us-UA88174791-0.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA251135411/option/4c1dc6d4-f611-4823-967b-31a6d6512b12.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -1727,7 +1728,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA88174791-0-detail-1.webp",
+        "image": asset("/products/us/references/UA88174791-0-detail-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/item/1229/0bc074de-5ae4-4a72-99ee-c5494e54591a.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA88174791",
         "label": "Official shade example",
@@ -1736,7 +1737,7 @@ export const usProducts:Product[]=[
         "kind": "on-face"
       },
       {
-        "image": "/products/us/references/UA88174791-guide-0.webp",
+        "image": asset("/products/us/references/UA88174791-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/GA251135411/detail/7434c6b9-5b58-4736-aa4c-4fc824d0c2ef.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA88174791",
         "label": "US product guide",
@@ -1787,7 +1788,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA66355696",
-    "imageUrl": "/products/us/us-UA66355696-4.webp",
+    "imageUrl": asset("/products/us/us-UA66355696-4.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-3b2bfba7-a0fd-40cc-93d9-766087a5e2ad/option/0c08f29f-810a-4200-a260-5c5b5387bffb.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -1798,7 +1799,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/us-UA66355696-4-lips.webp",
+        "image": asset("/products/us/references/us-UA66355696-4-lips.webp"),
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/05_jujube_2.jpg?v=1774510656",
         "pageUrl": "https://romandbeauty.com/products/the-juicy-lasting-tint",
         "label": "05 JUJUBE on lips",
@@ -1807,7 +1808,7 @@ export const usProducts:Product[]=[
         "kind": "on-face"
       },
       {
-        "image": "/products/us/references/UA66355696-guide-0.webp",
+        "image": asset("/products/us/references/UA66355696-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA66355696/detail-strips/28694c43-5365-48cb-a673-4df5472b8b24.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA66355696",
         "label": "US product guide",
@@ -1858,7 +1859,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA66355696",
-    "imageUrl": "/products/us/us-UA66355696-2.webp",
+    "imageUrl": asset("/products/us/us-UA66355696-2.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-f5d6bd0f-ba9f-4f94-ba52-95f68c33b43f/option/337c7a35-3173-4e23-bcbd-46adcd355c1f.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -1869,7 +1870,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/us-UA66355696-2-lips.webp",
+        "image": asset("/products/us/references/us-UA66355696-2-lips.webp"),
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/03_bare_grape_2_a8c3f334-45de-474f-8215-1c8178af4a20.jpg?v=1774510656",
         "pageUrl": "https://romandbeauty.com/products/the-juicy-lasting-tint",
         "label": "03 BARE GRAPE on lips",
@@ -1878,7 +1879,7 @@ export const usProducts:Product[]=[
         "kind": "on-face"
       },
       {
-        "image": "/products/us/references/UA66355696-guide-0.webp",
+        "image": asset("/products/us/references/UA66355696-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA66355696/detail-strips/28694c43-5365-48cb-a673-4df5472b8b24.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA66355696",
         "label": "US product guide",
@@ -1929,7 +1930,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA66355696",
-    "imageUrl": "/products/us/us-UA66355696-21.webp",
+    "imageUrl": asset("/products/us/us-UA66355696-21.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-ba40b566-77f7-4596-96d7-aaaefbd421e1/option/584a5d33-9266-4f5d-935c-128839b56f7a.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -1940,7 +1941,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/us-UA66355696-21-lips.webp",
+        "image": asset("/products/us/references/us-UA66355696-21-lips.webp"),
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/23_peach_peach_me_2.jpg?v=1774510656",
         "pageUrl": "https://romandbeauty.com/products/the-juicy-lasting-tint",
         "label": "23 PEACH PEACH ME on lips",
@@ -1949,7 +1950,7 @@ export const usProducts:Product[]=[
         "kind": "on-face"
       },
       {
-        "image": "/products/us/references/UA66355696-guide-0.webp",
+        "image": asset("/products/us/references/UA66355696-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA66355696/detail-strips/28694c43-5365-48cb-a673-4df5472b8b24.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA66355696",
         "label": "US product guide",
@@ -2000,7 +2001,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA21502281",
-    "imageUrl": "/products/us/us-UA21502281-3.webp",
+    "imageUrl": asset("/products/us/us-UA21502281-3.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA250732540/option/4b048007-dd59-422b-bc41-bfc1fad71d6f.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -2011,7 +2012,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA21502281-3-detail-1.webp",
+        "image": asset("/products/us/references/UA21502281-3-detail-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA21502281/option/33d20a08-789d-4e27-90fa-90931fd7d605.png",
         "pageUrl": "https://us.oliveyoung.com/products/UA21502281",
         "label": "Official shade example",
@@ -2020,7 +2021,7 @@ export const usProducts:Product[]=[
         "kind": "on-face"
       },
       {
-        "image": "/products/us/references/UA21502281-guide-0.webp",
+        "image": asset("/products/us/references/UA21502281-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/4901610865286/detail/bca8578b-a7c3-46b0-8ea7-4708743d3546.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA21502281",
         "label": "US product guide",
@@ -2071,7 +2072,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA21502281",
-    "imageUrl": "/products/us/us-UA21502281-21.webp",
+    "imageUrl": asset("/products/us/us-UA21502281-21.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA250732540/option/99d1253e-811e-4759-a2d1-62d475d0aaa9.png",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -2082,7 +2083,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA21502281-21-detail-1.webp",
+        "image": asset("/products/us/references/UA21502281-21-detail-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/GA250732540/option/1075dde6-36ad-4bf5-8c8c-e3c977629d75.webp",
         "pageUrl": "https://us.oliveyoung.com/products/UA21502281",
         "label": "Official shade example",
@@ -2091,7 +2092,7 @@ export const usProducts:Product[]=[
         "kind": "on-face"
       },
       {
-        "image": "/products/us/references/UA21502281-guide-0.webp",
+        "image": asset("/products/us/references/UA21502281-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/4901610865286/detail/bca8578b-a7c3-46b0-8ea7-4708743d3546.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA21502281",
         "label": "US product guide",
@@ -2142,7 +2143,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA21502281",
-    "imageUrl": "/products/us/us-UA21502281-16.webp",
+    "imageUrl": asset("/products/us/us-UA21502281-16.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA250732540/option/57fe9ff6-d531-43eb-94f3-325062568a48.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -2153,7 +2154,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA21502281-16-detail-1.webp",
+        "image": asset("/products/us/references/UA21502281-16-detail-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA21502281/option/4953bfee-3579-43ed-af81-c87cb796f42d.png",
         "pageUrl": "https://us.oliveyoung.com/products/UA21502281",
         "label": "Official shade example",
@@ -2162,7 +2163,7 @@ export const usProducts:Product[]=[
         "kind": "on-face"
       },
       {
-        "image": "/products/us/references/UA21502281-guide-0.webp",
+        "image": asset("/products/us/references/UA21502281-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/4901610865286/detail/bca8578b-a7c3-46b0-8ea7-4708743d3546.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA21502281",
         "label": "US product guide",
@@ -2213,7 +2214,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA21502281",
-    "imageUrl": "/products/us/us-UA21502281-6.webp",
+    "imageUrl": asset("/products/us/us-UA21502281-6.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA250732540/option/45963dea-0d8c-4eb5-bc0a-1ccd845ed725.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -2224,7 +2225,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA21502281-6-detail-1.webp",
+        "image": asset("/products/us/references/UA21502281-6-detail-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA21502281/option/b5349f1a-50be-49c7-b18c-768d432007e6.png",
         "pageUrl": "https://us.oliveyoung.com/products/UA21502281",
         "label": "Official shade example",
@@ -2233,7 +2234,7 @@ export const usProducts:Product[]=[
         "kind": "on-face"
       },
       {
-        "image": "/products/us/references/UA21502281-guide-0.webp",
+        "image": asset("/products/us/references/UA21502281-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/4901610865286/detail/bca8578b-a7c3-46b0-8ea7-4708743d3546.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA21502281",
         "label": "US product guide",
@@ -2284,7 +2285,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA15554105",
-    "imageUrl": "/products/us/us-UA15554105-1.webp",
+    "imageUrl": asset("/products/us/us-UA15554105-1.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA260136903/option/635d6879-8ccb-45a8-8412-0ce316dc09ff.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -2295,7 +2296,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA15554105-guide-1.webp",
+        "image": asset("/products/us/references/UA15554105-guide-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA15554105/detail-strips/f88e2692-41cc-40d7-9ef4-62eece3f34fd.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA15554105",
         "label": "US product guide",
@@ -2346,7 +2347,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA15554105",
-    "imageUrl": "/products/us/us-UA15554105-5.webp",
+    "imageUrl": asset("/products/us/us-UA15554105-5.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA260136903/option/ca7d64b5-3e04-427e-be60-1fe7ba557425.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -2357,7 +2358,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA15554105-guide-1.webp",
+        "image": asset("/products/us/references/UA15554105-guide-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA15554105/detail-strips/f88e2692-41cc-40d7-9ef4-62eece3f34fd.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA15554105",
         "label": "US product guide",
@@ -2408,7 +2409,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA15554105",
-    "imageUrl": "/products/us/us-UA15554105-8.webp",
+    "imageUrl": asset("/products/us/us-UA15554105-8.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA260136903/option/85c97b4b-73ae-4af8-bb9e-874def29c0e4.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -2419,7 +2420,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA15554105-guide-1.webp",
+        "image": asset("/products/us/references/UA15554105-guide-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA15554105/detail-strips/f88e2692-41cc-40d7-9ef4-62eece3f34fd.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA15554105",
         "label": "US product guide",
@@ -2470,7 +2471,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA78112942",
-    "imageUrl": "/products/us/us-UA78112942-1.webp",
+    "imageUrl": asset("/products/us/us-UA78112942-1.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-44ccdca9-2af2-499c-8f36-59f34c2b0769/option/3264ba89-feb2-425d-a165-9d13e00e5653.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -2481,7 +2482,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA78112942-guide-0.webp",
+        "image": asset("/products/us/references/UA78112942-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA78112942/detail-strips/6026c3d5-bbb2-4c5e-9814-95d554303cb9.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA78112942",
         "label": "US product guide",
@@ -2532,7 +2533,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA78112942",
-    "imageUrl": "/products/us/us-UA78112942-12.webp",
+    "imageUrl": asset("/products/us/us-UA78112942-12.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-55441e0d-a927-476d-a713-ede5282ce234/option/e7429c0f-5f68-4919-8ef2-7029784d74a4.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -2543,7 +2544,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official photo attached to the selected US option.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA78112942-guide-0.webp",
+        "image": asset("/products/us/references/UA78112942-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA78112942/detail-strips/6026c3d5-bbb2-4c5e-9814-95d554303cb9.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA78112942",
         "label": "US product guide",
@@ -2593,7 +2594,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA46196074",
-    "imageUrl": "/products/us/us-UA46196074-0.webp",
+    "imageUrl": asset("/products/us/us-UA46196074-0.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-72b3e7ce-7c5a-4f3a-934b-01ae7e18ce23/thumbnail/a13b7ec0-cb9e-4f48-b725-3acf57e2855f.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -2604,7 +2605,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official product-family photo. Selected shade/size is named separately.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA46196074-guide-0.webp",
+        "image": asset("/products/us/references/UA46196074-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-ef6112bf-2814-4dd0-aa44-f988647f5294/detail/f0b430f7-01e1-4f44-9a0b-092a798ba343.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA46196074",
         "label": "US product guide",
@@ -2654,7 +2655,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA53025014",
-    "imageUrl": "/products/us/us-UA53025014-0.webp",
+    "imageUrl": asset("/products/us/us-UA53025014-0.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-dc64d62a-881e-43e9-aac5-602d863eb653/thumbnail/63411688-6211-4e38-ab4b-2e486968457c.png",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -2665,7 +2666,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official product-family photo. Selected shade/size is named separately.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA53025014-guide-0.webp",
+        "image": asset("/products/us/references/UA53025014-guide-0.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/UA53025014/detail-strips/6ee68d61-327c-4042-b003-22541a4a624e.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA53025014",
         "label": "US product guide",
@@ -2715,7 +2716,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA84734551",
-    "imageUrl": "/products/us/us-UA84734551-0.webp",
+    "imageUrl": asset("/products/us/us-UA84734551-0.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/8809937360834/thumbnail/66e49125-709c-45ed-8b7d-740e7c7cfab1.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -2726,7 +2727,7 @@ export const usProducts:Product[]=[
     "photoScope": "Official product-family photo. Selected shade/size is named separately.",
     "skinReferences": [
       {
-        "image": "/products/us/references/UA84734551-guide-1.webp",
+        "image": asset("/products/us/references/UA84734551-guide-1.webp"),
         "sourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-71254485-06af-4b73-a144-ed9bfca7ebba/detail/946645dc-7576-4d3b-9242-775371e3d334.jpg",
         "pageUrl": "https://us.oliveyoung.com/products/UA84734551",
         "label": "US product guide",
@@ -2777,7 +2778,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA56625219",
-    "imageUrl": "/products/us/us-UA56625219-1.webp",
+    "imageUrl": asset("/products/us/us-UA56625219-1.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-a86bc3f5-0c51-46fd-a80b-2c8e7b9a37d8/option/bf3c9f4c-e6fc-49ff-b19a-51dca2d4a2e3.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -2828,7 +2829,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA20006708",
-    "imageUrl": "/products/us/us-UA20006708-1.webp",
+    "imageUrl": asset("/products/us/us-UA20006708-1.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-98df77ed-f3ae-4bb4-b3ba-c223aced89b8/option/062b5b4c-4778-4a4c-8f58-c20420b7e2dc.webp",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -2879,7 +2880,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA95990803",
-    "imageUrl": "/products/us/us-UA95990803-0.webp",
+    "imageUrl": asset("/products/us/us-UA95990803-0.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-59388c51-03c1-4270-9b0c-93a45f7893b9/option/5da04b3f-574b-4c6d-ae29-f2aab945c091.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -2930,7 +2931,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA69419689",
-    "imageUrl": "/products/us/us-UA69419689-2.webp",
+    "imageUrl": asset("/products/us/us-UA69419689-2.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/GA240925558/option/0021a567-18bd-422e-8095-bc000f709033.webp",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -2981,7 +2982,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA16733220",
-    "imageUrl": "/products/us/us-UA16733220-1.webp",
+    "imageUrl": asset("/products/us/us-UA16733220-1.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-961b4bcd-beb8-4576-8e96-8b2bd145608a/option/7e44f4d7-78bf-49b9-a28e-5910e4a7c7c0.webp",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -3032,7 +3033,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA57182821",
-    "imageUrl": "/products/us/us-UA57182821-0.webp",
+    "imageUrl": asset("/products/us/us-UA57182821-0.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-0a843376-c47e-46fa-9d07-dd0bdbb6fea4/thumbnail/3a3acfc0-c31e-4fde-9b9a-0a80acc949b5.png",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -3083,7 +3084,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA88452413",
-    "imageUrl": "/products/us/us-UA88452413-0.webp",
+    "imageUrl": asset("/products/us/us-UA88452413-0.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/item/1572/278e2ebf-9a2c-4794-96a3-f7828dd7ab81.png",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -3134,7 +3135,7 @@ export const usProducts:Product[]=[
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://us.oliveyoung.com/products/UA71026007",
-    "imageUrl": "/products/us/us-UA71026007-0.webp",
+    "imageUrl": asset("/products/us/us-UA71026007-0.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/8809013342402/thumbnail/46b6f6dc-3cab-4e28-9cc5-85237bef18c0.png",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",

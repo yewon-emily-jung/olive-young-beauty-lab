@@ -1,4 +1,5 @@
 import type {Product} from './products';
+import {asset} from '../assetUrl';
 // Official photos / references checked 2026-11-08. Award claims remain separate.
 export const productReferences:Record<string,Partial<Product>>={
   "blush-1": {
@@ -14,7 +15,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "prototype": false,
     "productVerified": true,
     "productUrl": "https://fwee.us/products/pudding-pot?variant=45907150307477",
-    "imageUrl": "/products/fwee-nd01-oh.webp",
+    "imageUrl": asset("/products/fwee-nd01-oh.webp"),
     "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0575/6200/5653/files/ND01.jpg?v=1770085550",
     "imageCredit": "Product reference photo: fwee. Source: official brand product listing.",
     "imageUsageStatus": "official_reference",
@@ -22,7 +23,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "verificationNotes": "Product family and exact shade confirmed against official brand listing and variant data. Product image sourced from that listing for this educational reference. No brand endorsement or image license is asserted. 2025 award year/category/placement remains unverified. On-face color is an adjustable artistic approximation, not a calibrated swatch.",
     "skinReferences": [
       {
-        "image": "/products/references/fwee-3.webp",
+        "image": asset("/products/references/fwee-3.webp"),
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0575/6200/5653/files/US_619501ce-5f17-4ddb-93f3-8a1b6196ed9b.jpg?v=1770085550",
         "pageUrl": "https://fwee.us/products/pudding-pot?variant=45907150307477",
         "label": "ND01 Oh! on skin",
@@ -46,7 +47,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "prototype": false,
     "productVerified": true,
     "productUrl": "https://deardahlia.com/products/petal-drop-liquid-blush?variant=44177251827936",
-    "imageUrl": "/products/dahlia-barely.webp",
+    "imageUrl": asset("/products/dahlia-barely.webp"),
     "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0405/6757/0598/products/PetalDropLiquidBlushFW_ProdutShot_Barely.png?v=1749085990",
     "imageCredit": "Product reference photo: Dear Dahlia. Source: official brand product listing.",
     "imageUsageStatus": "official_reference",
@@ -54,7 +55,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "verificationNotes": "Product family and exact shade confirmed against official brand listing and variant data. Product image sourced from that listing for this educational reference. No brand endorsement or image license is asserted. 2025 award year/category/placement remains unverified. On-face color is an adjustable artistic approximation, not a calibrated swatch.",
     "skinReferences": [
       {
-        "image": "/products/references/dahlia-4.webp",
+        "image": asset("/products/references/dahlia-4.webp"),
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0405/6757/0598/files/armswatch_d1804ec7-a1aa-43e6-879f-f6c1f3434e20.jpg?v=1749085990",
         "pageUrl": "https://deardahlia.com/products/petal-drop-liquid-blush?variant=44177251827936",
         "label": "Compare cheek shades",
@@ -63,7 +64,7 @@ export const productReferences:Record<string,Partial<Product>>={
         "credit": "Product reference photo: Dear Dahlia. Source: official brand product listing."
       },
       {
-        "image": "/products/references/dahlia-family-model.webp",
+        "image": asset("/products/references/dahlia-family-model.webp"),
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0405/6757/0598/files/PetalDropLiquidBlushFW_ModelShot_YANA_KEIRAcopy.png?v=1749085990",
         "pageUrl": "https://deardahlia.com/products/petal-drop-liquid-blush?variant=44177251827936",
         "label": "Blush finish on a model",
@@ -87,7 +88,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "prototype": false,
     "productVerified": true,
     "productUrl": "https://fwee.us/products/pudding-pot?variant=45907150471317",
-    "imageUrl": "/products/fwee-cr01-dear.webp",
+    "imageUrl": asset("/products/fwee-cr01-dear.webp"),
     "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0575/6200/5653/files/CR01.jpg?v=1770085550",
     "imageCredit": "Product reference photo: fwee. Source: official brand product listing.",
     "imageUsageStatus": "official_reference",
@@ -95,7 +96,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "verificationNotes": "Product family and exact shade confirmed against official brand listing and variant data. Product image sourced from that listing for this educational reference. No brand endorsement or image license is asserted. 2025 award year/category/placement remains unverified. On-face color is an adjustable artistic approximation, not a calibrated swatch.",
     "skinReferences": [
       {
-        "image": "/products/references/fwee-13.webp",
+        "image": asset("/products/references/fwee-13.webp"),
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0575/6200/5653/files/CR01_Dear.jpg?v=1770085550",
         "pageUrl": "https://fwee.us/products/pudding-pot?variant=45907150471317",
         "label": "CR01 Dear on skin",
@@ -119,7 +120,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "prototype": false,
     "productVerified": true,
     "productUrl": "https://fwee.us/products/pudding-pot?variant=45907150995605",
-    "imageUrl": "/products/fwee-mv02-hurt.webp",
+    "imageUrl": asset("/products/fwee-mv02-hurt.webp"),
     "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0575/6200/5653/files/MV02.jpg?v=1770085550",
     "imageCredit": "Product reference photo: fwee. Source: official brand product listing.",
     "imageUsageStatus": "official_reference",
@@ -127,7 +128,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "verificationNotes": "Product family and exact shade confirmed against official brand listing and variant data. Product image sourced from that listing for this educational reference. No brand endorsement or image license is asserted. 2025 award year/category/placement remains unverified. On-face color is an adjustable artistic approximation, not a calibrated swatch.",
     "skinReferences": [
       {
-        "image": "/products/references/fwee-45.webp",
+        "image": asset("/products/references/fwee-45.webp"),
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0575/6200/5653/files/MV02_Hurt.jpg?v=1770085550",
         "pageUrl": "https://fwee.us/products/pudding-pot?variant=45907150995605",
         "label": "MV02 Hurt on skin",
@@ -151,7 +152,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "prototype": false,
     "productVerified": true,
     "productUrl": "https://deardahlia.com/products/petal-drop-liquid-blush?variant=44177251860704",
-    "imageUrl": "/products/dahlia-dreamy.webp",
+    "imageUrl": asset("/products/dahlia-dreamy.webp"),
     "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0405/6757/0598/products/PetalDropLiquidBlushFW_ProductShot_Dreamy.png?v=1749085990",
     "imageCredit": "Product reference photo: Dear Dahlia. Source: official brand product listing.",
     "imageUsageStatus": "official_reference",
@@ -159,7 +160,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "verificationNotes": "Product family and exact shade confirmed against official brand listing and variant data. Product image sourced from that listing for this educational reference. No brand endorsement or image license is asserted. 2025 award year/category/placement remains unverified. On-face color is an adjustable artistic approximation, not a calibrated swatch.",
     "skinReferences": [
       {
-        "image": "/products/references/dahlia-4.webp",
+        "image": asset("/products/references/dahlia-4.webp"),
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0405/6757/0598/files/armswatch_d1804ec7-a1aa-43e6-879f-f6c1f3434e20.jpg?v=1749085990",
         "pageUrl": "https://deardahlia.com/products/petal-drop-liquid-blush?variant=44177251860704",
         "label": "Compare cheek shades",
@@ -168,7 +169,7 @@ export const productReferences:Record<string,Partial<Product>>={
         "credit": "Product reference photo: Dear Dahlia. Source: official brand product listing."
       },
       {
-        "image": "/products/references/dahlia-family-model.webp",
+        "image": asset("/products/references/dahlia-family-model.webp"),
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0405/6757/0598/files/PetalDropLiquidBlushFW_ModelShot_YANA_KEIRAcopy.png?v=1749085990",
         "pageUrl": "https://deardahlia.com/products/petal-drop-liquid-blush?variant=44177251860704",
         "label": "Blush finish on a model",
@@ -192,7 +193,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "prototype": false,
     "productVerified": true,
     "productUrl": "https://romandbeauty.com/products/the-juicy-lasting-tint?variant=41629773201483",
-    "imageUrl": "/products/lip-1.webp",
+    "imageUrl": asset("/products/lip-1.webp"),
     "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/03_bare_grape_1_0db1ad15-19c7-49b5-970a-a48a3a9fdd76.jpg?v=1774510656",
     "imageCredit": "Product reference photo: rom&nd. Source: official brand product listing.",
     "imageUsageStatus": "official_reference",
@@ -200,7 +201,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "verificationNotes": "Product family and exact shade confirmed against official brand listing and variant data. Product image sourced from that listing for this educational reference. No brand endorsement or image license is asserted. 2025 award year/category/placement remains unverified. On-face color is an adjustable artistic approximation, not a calibrated swatch.",
     "skinReferences": [
       {
-        "image": "/products/references/romand-17.webp",
+        "image": asset("/products/references/romand-17.webp"),
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/03_bare_grape_2_a8c3f334-45de-474f-8215-1c8178af4a20.jpg?v=1774510656",
         "pageUrl": "https://romandbeauty.com/products/the-juicy-lasting-tint?variant=41629773201483",
         "label": "Bare Grape on lips",
@@ -224,7 +225,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "prototype": false,
     "productVerified": true,
     "productUrl": "https://romandbeauty.com/products/glasting-color-gloss?variant=41341796679755",
-    "imageUrl": "/products/lip-4.webp",
+    "imageUrl": asset("/products/lip-4.webp"),
     "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/GLASTING_COLOR_GLOSS_01_PEONY_BALLET_1.png?v=1758196200",
     "imageCredit": "Product reference photo: rom&nd. Source: official brand product listing.",
     "imageUsageStatus": "official_reference",
@@ -232,7 +233,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "verificationNotes": "Product family and exact shade confirmed against official brand listing and variant data. Product image sourced from that listing for this educational reference. No brand endorsement or image license is asserted. 2025 award year/category/placement remains unverified. On-face color is an adjustable artistic approximation, not a calibrated swatch.",
     "skinReferences": [
       {
-        "image": "/products/references/gloss-2.webp",
+        "image": asset("/products/references/gloss-2.webp"),
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/GLASTING_COLOR_GLOSS_01_PEONY_BALLET_3.png?v=1758196201",
         "pageUrl": "https://romandbeauty.com/products/glasting-color-gloss?variant=41341796679755",
         "label": "Peony Ballet on lips",
@@ -256,7 +257,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "prototype": false,
     "productVerified": true,
     "productUrl": "https://romandbeauty.com/products/the-juicy-lasting-tint?variant=41629773168715",
-    "imageUrl": "/products/romand-nucadamia.webp",
+    "imageUrl": asset("/products/romand-nucadamia.webp"),
     "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/02_nucadamia_1_8fe72b56-a251-4d1a-a86d-08bcee31c1a5.jpg?v=1774510656",
     "imageCredit": "Product reference photo: rom&nd. Source: official brand product listing.",
     "imageUsageStatus": "official_reference",
@@ -264,7 +265,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "verificationNotes": "Product family and exact shade confirmed against official brand listing and variant data. Product image sourced from that listing for this educational reference. No brand endorsement or image license is asserted. 2025 award year/category/placement remains unverified. On-face color is an adjustable artistic approximation, not a calibrated swatch.",
     "skinReferences": [
       {
-        "image": "/products/references/romand-nucadamia-lips.webp",
+        "image": asset("/products/references/romand-nucadamia-lips.webp"),
         "sourceUrl": "https://cdn.shopify.com/s/files/1/0598/8578/1067/files/02_nucadamia_2_b7901b4b-156f-4cb3-b0d4-7a15cf1abec6.jpg?v=1774510656",
         "pageUrl": "https://romandbeauty.com/products/the-juicy-lasting-tint?variant=41629773168715",
         "label": "Nucadamia on lips",
@@ -285,7 +286,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA210002919",
-    "imageUrl": "/products/cushion-1.webp",
+    "imageUrl": asset("/products/cushion-1.webp"),
     "imageSourceUrl": "https://cdn-image.oliveyoung.com/item/1127/2b7a08a1-ad30-46b0-97ff-6ec2cadb286f.jpg",
     "imageCredit": "Photo: JUNGSAEMMOOL / OLIVE YOUNG Global.",
     "imageUsageStatus": "official_reference",
@@ -293,7 +294,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "verificationNotes": "Official product identity and photo checked. Awards remain unverified. On-face effects are adjustable illustrations, not calibrated swatches or guaranteed skincare results.",
     "skinReferences": [
       {
-        "image": "/products/references/GA210002919-0.webp",
+        "image": asset("/products/references/GA210002919-0.webp"),
         "sourceUrl": "https://cdn-image.oliveyoung.com/catalog/product/shared/description/2026/10/993b66ca1c3645be88bb52ef8be90d6b.jpg",
         "pageUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA210002919",
         "label": "Glow finish guide",
@@ -305,7 +306,7 @@ export const productReferences:Record<string,Partial<Product>>={
     ],
     "finishNote": "Softly luminous coverage with broad, diffused highlights.",
     "photoScope": "Official product-family pack shot. The avatar illustrates the finish on the client’s own complexion, not the pictured retail shade.",
-    "imageFallbackUrl": "/products/cushion-1.png"
+    "imageFallbackUrl": asset("/products/cushion-1.png")
   },
   "cushion-2": {
     "id": "cushion-2",
@@ -317,7 +318,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA240825109",
-    "imageUrl": "/products/cushion-2.webp",
+    "imageUrl": asset("/products/cushion-2.webp"),
     "imageSourceUrl": "https://cdn-image.oliveyoung.com/prdtImg/1931/0b31ea6b-7854-455d-8c8f-74458c919eac.jpg",
     "imageCredit": "Photo: CLIO / OLIVE YOUNG Global.",
     "imageUsageStatus": "official_reference",
@@ -326,7 +327,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "photoScope": "Official product-family pack shot. The avatar illustrates the finish on the client’s own complexion, not the pictured retail shade.",
     "skinReferences": [
       {
-        "image": "/products/references/GA240825109-4.webp",
+        "image": asset("/products/references/GA240825109-4.webp"),
         "sourceUrl": "https://cdn.clio.co.kr//images/OY/클리오 킬 커버 파운웨어 쿠션 디 오리지널 상세페이지(25ver)-5.jpg",
         "pageUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA240825109",
         "label": "Coverage on skin",
@@ -337,7 +338,7 @@ export const productReferences:Record<string,Partial<Product>>={
       }
     ],
     "finishNote": "More even-looking coverage with restrained shine.",
-    "imageFallbackUrl": "/products/cushion-2.png"
+    "imageFallbackUrl": asset("/products/cushion-2.png")
   },
   "cushion-4": {
     "id": "cushion-4",
@@ -349,7 +350,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA240121959",
-    "imageUrl": "/products/cushion-4.webp",
+    "imageUrl": asset("/products/cushion-4.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-a83e1a2c-9112-4d94-aff8-12d2e5e3a01f/thumbnail/6ef83f34-a012-4482-bc8a-ab93b3ca931f.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -358,7 +359,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "photoSourceUrl": "https://us.oliveyoung.com/products/UA39060939",
     "skinReferences": [
       {
-        "image": "/products/references/GA240121959-8.webp",
+        "image": asset("/products/references/GA240121959-8.webp"),
         "sourceUrl": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/html/attached/2026/09/10/952_10093530.jpg",
         "pageUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA240121959",
         "label": "Ceramic finish",
@@ -369,7 +370,7 @@ export const productReferences:Record<string,Partial<Product>>={
     ],
     "finishNote": "Fresh luminosity with a brighter cheekbone reflection.",
     "photoScope": "Official product-family pack shot. The avatar illustrates the finish on the client’s own complexion, not the pictured retail shade.",
-    "imageFallbackUrl": "/products/cushion-4.png"
+    "imageFallbackUrl": asset("/products/cushion-4.png")
   },
   "cushion-5": {
     "id": "cushion-5",
@@ -381,7 +382,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA240825234",
-    "imageUrl": "/products/cushion-5.webp",
+    "imageUrl": asset("/products/cushion-5.webp"),
     "imageSourceUrl": "https://cdn-image.oliveyoung.com/prdtImg/1569/e92332bb-888a-4b38-9709-07b18853f3e4.jpg",
     "imageCredit": "Photo: HERA / OLIVE YOUNG Global.",
     "imageUsageStatus": "official_reference",
@@ -390,7 +391,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "photoScope": "Official product-family pack shot. The avatar illustrates the finish on the client’s own complexion, not the pictured retail shade.",
     "skinReferences": [
       {
-        "image": "/products/references/GA240825234-0.webp",
+        "image": asset("/products/references/GA240825234-0.webp"),
         "sourceUrl": "https://image.oliveyoung.com/editor/1560/223a8708-c619-4e1a-ac0f-bdf385611c04.jpg",
         "pageUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA240825234",
         "label": "Satin coverage guide",
@@ -401,7 +402,7 @@ export const productReferences:Record<string,Partial<Product>>={
       }
     ],
     "finishNote": "Balanced satin coverage, between matte and glow.",
-    "imageFallbackUrl": "/products/cushion-5.png"
+    "imageFallbackUrl": asset("/products/cushion-5.png")
   },
   "eyeshadow-1": {
     "id": "eyeshadow-1",
@@ -413,7 +414,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA230317906",
-    "imageUrl": "/products/eyeshadow-1.webp",
+    "imageUrl": asset("/products/eyeshadow-1.webp"),
     "imageSourceUrl": "https://cdn-image.oliveyoung.com/item/1844/a3dfdb9c-b9d4-49fd-a45f-74b9c6b6e791.jpg",
     "imageCredit": "Photo: wakemake / OLIVE YOUNG Global.",
     "imageUsageStatus": "official_reference",
@@ -430,7 +431,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA210004842",
-    "imageUrl": "/products/eyeshadow-2.webp",
+    "imageUrl": asset("/products/eyeshadow-2.webp"),
     "imageSourceUrl": "https://cdn-image.oliveyoung.com/item/1310/0f480cba-d9cc-4e09-adc2-932087305713.jpg",
     "imageCredit": "Photo: dasique / OLIVE YOUNG Global.",
     "imageUsageStatus": "official_reference",
@@ -447,7 +448,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA250833127",
-    "imageUrl": "/products/eyeshadow-3.webp",
+    "imageUrl": asset("/products/eyeshadow-3.webp"),
     "imageSourceUrl": "https://cdn-image.oliveyoung.com/item/1717/a038020f-a503-4d4c-b888-0d6dd7f5a0b3.jpg",
     "imageCredit": "Photo: CLIO / OLIVE YOUNG Global.",
     "imageUsageStatus": "official_reference",
@@ -464,7 +465,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA260439280",
-    "imageUrl": "/products/eyeshadow-4.webp",
+    "imageUrl": asset("/products/eyeshadow-4.webp"),
     "imageSourceUrl": "https://cdn-image.oliveyoung.com/item/1339/4d54a3c2-4a75-4c69-81ef-f07bc5bc1a21.png",
     "imageCredit": "Photo: ETUDE / OLIVE YOUNG Global.",
     "imageUsageStatus": "official_reference",
@@ -481,7 +482,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA250833127",
-    "imageUrl": "/products/clio-pink-pairing.webp",
+    "imageUrl": asset("/products/clio-pink-pairing.webp"),
     "imageSourceUrl": "https://cdn-image.oliveyoung.com/item/1356/38b77559-9618-4f47-b9e4-44fa462943aa.jpg",
     "imageCredit": "Photo: CLIO / OLIVE YOUNG Global.",
     "imageUsageStatus": "official_reference",
@@ -501,7 +502,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA250732540",
-    "imageUrl": "/products/lip-2.webp",
+    "imageUrl": asset("/products/lip-2.webp"),
     "imageSourceUrl": "https://cdn-image.oliveyoung.com/prdtImg/1658/f76311b1-40f0-4d78-b08a-545087ac87bb.jpg",
     "imageCredit": "Photo: colorgram / OLIVE YOUNG Global.",
     "imageUsageStatus": "official_reference",
@@ -510,7 +511,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "photoScope": "Official product-family packaging; selected shade shown in the separate on-skin reference.",
     "skinReferences": [
       {
-        "image": "/products/references/GA250732540-5.webp",
+        "image": asset("/products/references/GA250732540-5.webp"),
         "sourceUrl": "https://cdn-image.oliveyoung.com/catalog/product/temp/description/1b04d0086bac421685113564336acb2e.jpg",
         "pageUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA250732540",
         "label": "Geek Rose on lips",
@@ -533,7 +534,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA231121205",
-    "imageUrl": "/products/peripera-pink-youth.webp",
+    "imageUrl": asset("/products/peripera-pink-youth.webp"),
     "imageSourceUrl": "https://cdn-image.oliveyoung.com/prdtImg/1887/dbe146e9-84e1-4e76-9977-81945727acd9.jpg",
     "imageCredit": "Photo: peripera / OLIVE YOUNG Global.",
     "imageUsageStatus": "official_reference",
@@ -545,7 +546,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "photoScope": "Official product-family packaging; selected shade shown in the separate on-skin reference.",
     "skinReferences": [
       {
-        "image": "/products/references/lip-3-2.webp",
+        "image": asset("/products/references/lip-3-2.webp"),
         "sourceUrl": "https://cdn-image.oliveyoung.com/prdtImg/1249/667c8209-f198-4d39-9ba9-2cbcc910fad5.jpg",
         "pageUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA231121205",
         "label": "Pink Youth on a model",
@@ -566,7 +567,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://roundlab.com/products/1025-dokdo-toner?variant=43023567749334",
-    "imageUrl": "/products/toner-1.webp",
+    "imageUrl": asset("/products/toner-1.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-72b3e7ce-7c5a-4f3a-934b-01ae7e18ce23/thumbnail/a13b7ec0-cb9e-4f48-b725-3acf57e2855f.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -585,7 +586,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "family",
     "productUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA260439230",
-    "imageUrl": "/products/toner-3.webp",
+    "imageUrl": asset("/products/toner-3.webp"),
     "imageSourceUrl": "https://cdn-image.oliveyoung.com/prdtImg/1598/84e7a5e8-566a-4ba1-9f58-47a86dd25ea9.jpg",
     "imageCredit": "Photo: Bioderma / OLIVE YOUNG Global.",
     "imageUsageStatus": "official_reference",
@@ -603,7 +604,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://roundlab.com/products/birch-moisturizing-toner?variant=43529701851350",
-    "imageUrl": "/products/toner-4.webp",
+    "imageUrl": asset("/products/toner-4.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/temp-851db144-d273-4829-91f0-608057131e77/thumbnail/9da8cca0-8ce3-45f6-b82f-7363f62bca59.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -622,7 +623,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "family",
     "productUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA260540625",
-    "imageUrl": "/products/toner-5.webp",
+    "imageUrl": asset("/products/toner-5.webp"),
     "imageSourceUrl": "https://cdn-image.oliveyoung.com/prdtImg/1363/455fa251-6a00-4fe6-abdd-47a0aa877feb.jpg",
     "imageCredit": "Photo: Torriden / OLIVE YOUNG Global.",
     "imageUsageStatus": "official_reference",
@@ -639,7 +640,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://torriden.us/products/dive-in-serum?variant=52228524736878",
-    "imageUrl": "/products/torriden-dive-in-serum.webp",
+    "imageUrl": asset("/products/torriden-dive-in-serum.webp"),
     "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0920/1644/3758/files/DIVEINSerum1_631ac0e3-a77b-422a-a806-bf34477cac19.jpg?v=1753346213",
     "imageCredit": "Photo: Torriden official brand store.",
     "imageUsageStatus": "official_reference",
@@ -656,7 +657,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "family",
     "productUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA250731968",
-    "imageUrl": "/products/serum-2.webp",
+    "imageUrl": asset("/products/serum-2.webp"),
     "imageSourceUrl": "https://cdn-image.oliveyoung.com/prdtImg/1201/0123042a-9ddf-4cfe-99fd-a7b36af6646e.jpg",
     "imageCredit": "Photo: goodal / OLIVE YOUNG Global.",
     "imageUsageStatus": "official_reference",
@@ -675,7 +676,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "family",
     "productUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA250732567",
-    "imageUrl": "/products/serum-3.webp",
+    "imageUrl": asset("/products/serum-3.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/8809619273698/thumbnail/5b49a35d-8ba7-4da7-91e4-327e7012cab3.jpg",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -693,7 +694,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://anua.com/products/pdrn-hyaluronic-acid-capsule-100-serum?variant=50941096558870",
-    "imageUrl": "/products/serum-4.webp",
+    "imageUrl": asset("/products/serum-4.webp"),
     "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-ampoule-serum-pdrn-hyaluronic-acid-capsule-100-serum-1239193734.jpg?v=1779177370",
     "imageCredit": "Photo: Anua US official brand store.",
     "imageUsageStatus": "official_reference",
@@ -710,7 +711,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "family",
     "productUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA260540500",
-    "imageUrl": "/products/drg-cream-ex.webp",
+    "imageUrl": asset("/products/drg-cream-ex.webp"),
     "imageSourceUrl": "https://cdn-image.oliveyoung.com/prdtImg/1429/0b259082-a139-478c-af4d-5b08d438e461.jpg",
     "imageCredit": "Photo: Dr.G / OLIVE YOUNG Global.",
     "imageUsageStatus": "official_reference",
@@ -728,7 +729,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "family",
     "productUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA210610734",
-    "imageUrl": "/products/cream-3.webp",
+    "imageUrl": asset("/products/cream-3.webp"),
     "imageSourceUrl": "https://use-image.oliveyoung.com/images/prd/8809506312165/thumbnail/21ca6d8c-7c90-49df-b07a-1a364e9a0ed8.png",
     "imageCredit": "Photo: OLIVE YOUNG US official product listing.",
     "imageUsageStatus": "official_reference",
@@ -746,7 +747,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "family",
     "productUrl": "https://global.oliveyoung.com/product/detail?prdtNo=GA250732251",
-    "imageUrl": "/products/cream-4.webp",
+    "imageUrl": asset("/products/cream-4.webp"),
     "imageSourceUrl": "https://cdn-image.oliveyoung.com/prdtImg/1120/64e6be0d-623f-454e-818e-1d64ab8a992f.jpg",
     "imageCredit": "Photo: ZEROID / OLIVE YOUNG Global.",
     "imageUsageStatus": "official_reference",
@@ -764,7 +765,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://torriden.us/products/dive-in-soothing-cream?variant=52228524802414",
-    "imageUrl": "/products/cream-5.webp",
+    "imageUrl": asset("/products/cream-5.webp"),
     "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0920/1644/3758/files/DIVEINSoothingCream-jar-1_64bb3003-ef23-44bd-bb46-0f50fae2eee7.jpg?v=1753346446",
     "imageCredit": "Photo: Torriden official brand store.",
     "imageUsageStatus": "official_reference",
@@ -780,7 +781,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://anua.com/products/heartleaf-77-soothing-toner?variant=47704916558102",
-    "imageUrl": "/products/toner-2.webp",
+    "imageUrl": asset("/products/toner-2.webp"),
     "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-toner-heartleaf-77-soothing-toner-1239193744.jpg?v=1779181932",
     "imageCredit": "Photo: Anua US official brand store.",
     "imageUsageStatus": "official_reference",
@@ -796,7 +797,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://anua.com/products/heartleaf-80-moisture-soothing-ampoule-30ml?variant=47766342500630",
-    "imageUrl": "/products/serum-5.webp",
+    "imageUrl": asset("/products/serum-5.webp"),
     "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0753/1429/9158/files/anua-us-ampoule-serum-heartleaf-80-moisture-soothing-ampoule-1261541641.jpg?v=1791443109",
     "imageCredit": "Photo: Anua US official brand store.",
     "imageUsageStatus": "official_reference",
@@ -812,7 +813,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "variant",
     "productUrl": "https://int.aestura.com/products/atobarrier365-cream?variant=47126170140914",
-    "imageUrl": "/products/cream-1.webp",
+    "imageUrl": asset("/products/cream-1.webp"),
     "imageSourceUrl": "https://cdn.shopify.com/s/files/1/0723/3775/2306/files/1_Atobarrier365-Cream_thumbnail_Product-80ml__1200x1200_961c8e7e-0afb-48bd-bea7-d47f285ab4d4.png?v=1734030421",
     "imageCredit": "Photo: aestura-us-development-store official brand store.",
     "imageUsageStatus": "official_reference",
@@ -825,7 +826,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "productVerified": true,
     "referenceScope": "family",
     "productUrl": "https://hince.jp/c/category/face/HC156",
-    "imageUrl": "/products/cushion-3.webp",
+    "imageUrl": asset("/products/cushion-3.webp"),
     "imageSourceUrl": "https://hince.itembox.design/item/img/lp/lp_test/testUI_HC156_mesh.png",
     "imageCredit": "Photo: hince official Japan store.",
     "imageUsageStatus": "official_reference",
@@ -833,7 +834,7 @@ export const productReferences:Record<string,Partial<Product>>={
     "verificationNotes": "Official product identity and photo checked. Awards remain unverified. On-face effects are adjustable illustrations, not calibrated swatches or guaranteed skincare results.",
     "skinReferences": [
       {
-        "image": "/products/references/hince-24.webp",
+        "image": asset("/products/references/hince-24.webp"),
         "sourceUrl": "https://hince.itembox.design/item/img/lp/lp_test/testUI_HC156_01.jpg",
         "pageUrl": "https://hince.jp/c/category/face/HC156",
         "label": "Matte on skin",
@@ -842,7 +843,7 @@ export const productReferences:Record<string,Partial<Product>>={
         "credit": "Photo: hince official Japan store."
       },
       {
-        "image": "/products/references/hince-23.webp",
+        "image": asset("/products/references/hince-23.webp"),
         "sourceUrl": "https://hince.itembox.design/item/img/lp/lp_test/testUI_HC156_mv.jpg",
         "pageUrl": "https://hince.jp/c/category/face/HC156",
         "label": "Model finish",
@@ -852,6 +853,6 @@ export const productReferences:Record<string,Partial<Product>>={
       }
     ],
     "finishNote": "Soft-focus matte: reduce reflections while retaining skin texture.",
-    "imageFallbackUrl": "/products/cushion-3.png"
+    "imageFallbackUrl": asset("/products/cushion-3.png")
   }
 };

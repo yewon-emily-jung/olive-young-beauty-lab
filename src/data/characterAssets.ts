@@ -1,11 +1,12 @@
 import type {ClientId,Category} from './clients';
+import {asset} from '../assetUrl';
 export type CharacterAssets={neutral:string;complexion?:string;width:number;height:number;overlays:Partial<Record<Category,string>>;happy?:string;curious?:string;excited?:string;talking?:string};
-const path=(id:ClientId,file:string)=>`/characters/v2/${id}/${file}`;
+const path=(id:ClientId,file:string)=>asset(`/characters/v2/${id}/${file}`);
 export const characterAssets:Record<ClientId,CharacterAssets>={
- chloe:{neutral:'/characters/v3/chloe-bare.png',complexion:'/characters/v3/chloe-complexion.png',width:1199,height:1312,overlays:{cushion:path('chloe','overlays/01-base.png'),blush:path('chloe','overlays/02-blush.png'),lip:path('chloe','overlays/03-lip.png')}},
- rin:{neutral:'/characters/v3/rin-bare.png',complexion:'/characters/v3/rin-complexion.png',width:1199,height:1312,overlays:{cushion:path('rin','overlays/01-base.png'),eyeshadow:path('rin','overlays/02-eyeshadow.png'),lip:path('rin','overlays/03-lip.png')}},
- jisoo:{neutral:'/characters/v3/jisoo-bare.png',width:1086,height:1448,overlays:{toner:path('jisoo','overlays/01-toner.png'),serum:path('jisoo','overlays/02-serum.png'),cream:path('jisoo','overlays/03-cream.png')}},
- alex:{neutral:'/characters/v3/alex-bare.png',width:1086,height:1448,overlays:{toner:path('alex','overlays/01-toner.png'),serum:path('alex','overlays/02-serum.png'),cream:path('alex','overlays/03-cream.png')}}
+ chloe:{neutral:asset('/characters/v3/chloe-bare.png'),complexion:asset('/characters/v3/chloe-complexion.png'),width:1199,height:1312,overlays:{cushion:path('chloe','overlays/01-base.png'),blush:path('chloe','overlays/02-blush.png'),lip:path('chloe','overlays/03-lip.png')}},
+ rin:{neutral:asset('/characters/v3/rin-bare.png'),complexion:asset('/characters/v3/rin-complexion.png'),width:1199,height:1312,overlays:{cushion:path('rin','overlays/01-base.png'),eyeshadow:path('rin','overlays/02-eyeshadow.png'),lip:path('rin','overlays/03-lip.png')}},
+ jisoo:{neutral:asset('/characters/v3/jisoo-bare.png'),width:1086,height:1448,overlays:{toner:path('jisoo','overlays/01-toner.png'),serum:path('jisoo','overlays/02-serum.png'),cream:path('jisoo','overlays/03-cream.png')}},
+ alex:{neutral:asset('/characters/v3/alex-bare.png'),width:1086,height:1448,overlays:{toner:path('alex','overlays/01-toner.png'),serum:path('alex','overlays/02-serum.png'),cream:path('alex','overlays/03-cream.png')}}
 };
 export type FaceLandmarks={eyes:[number,number][];cheeks:[number,number][];lip:[number,number];face:[number,number];eyeWidth:number;cheekRx:number;cheekRy:number;lipWidth:number;lipHeight:number};
 // A 543×724 effect coordinate space is projected with the whole effect group onto each
